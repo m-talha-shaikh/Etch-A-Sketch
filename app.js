@@ -11,7 +11,7 @@ input.addEventListener('change', ()=>{
 let eraseClick = ()=>{
 	color = 'white';
 	randomGenerator = false;
-	erase.style.backgroundColor = 'purple';
+	erase.style.backgroundColor = '#B26E63';
 	erase.style.color = 'white';
 	random.style.backgroundColor = 'floralwhite';
 	random.style.color = 'black';
@@ -20,7 +20,7 @@ let eraseClick = ()=>{
 
 let randomClick = ()=>{
 	randomGenerator = true;
-	random.style.backgroundColor = 'purple';
+	random.style.backgroundColor = '#B26E63';
 	random.style.color = 'white';
 	erase.style.backgroundColor = 'floralwhite';
 	erase.style.color = 'black';
