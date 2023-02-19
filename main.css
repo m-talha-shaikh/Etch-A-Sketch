@@ -5,3 +5,19 @@
 	box-sizing:  border-box;
 	font-family: monospace;
 }
+
+body{
+	width: 100vw;
+	height: 100vh;
+	background-color: #8fcb9b;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3% 0px;
+}
+
+main{
+	display: flex;
+	justify-content: center;
+}
+
