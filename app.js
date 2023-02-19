@@ -6,6 +6,10 @@ let input = document.getElementById('color');
 input.addEventListener('change', ()=>{
 		color = input.value;
 		randomGenerator = false;
+		random.style.backgroundColor = 'floralwhite';
+		random.style.color = 'black';
+		erase.style.backgroundColor = 'floralwhite';
+		erase.style.color = 'black';
 })
 
 let eraseClick = ()=>{
